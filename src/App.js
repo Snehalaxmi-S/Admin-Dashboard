@@ -6,8 +6,11 @@ import {Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {Ecommerce, Orders, Calendar, Employees, Kanban, Customers, Editor, ColorPicker} from './pages';
 import "./App.css";
 
+import { useStateContext } from './context/ContextProvider';
+
 const App = () => {
-    const activeMenu = true;
+    const { activeMenu } = useStateContext();
+
   return (
     <div>
         <BrowserRouter>
