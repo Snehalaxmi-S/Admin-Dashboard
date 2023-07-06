@@ -430,6 +430,7 @@ export const customersGrid = [
     textAlign: 'Center',
     isPrimaryKey: true,
   },
+  
 
 ];
 
